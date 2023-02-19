@@ -1,0 +1,77 @@
+/* Nav bar */
+.nb{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.card-header{
+    text-transform: uppercase;
+}
+.cards{
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+
+}
+.wt{
+    overflow: auto;
+}
+.wt::-webkit-scrollbar{
+display: none;
+}
+.nav a{
+    text-decoration: none;
+}
+.main{
+    /* width: 100%; */
+    flex: 1;
+}
+.workoutform{
+    flex: 1;
+}
+/* Home page */
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.workoutdets{
+    /* position: relative;   */
+    flex:1;
+}
+
+.errMessage{
+    background: rgb(245, 155, 155);
+    color: red;
+    margin-top: 18px;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.err{
+    border: 1px solid red;
+}
+
+/* sign up & login page */
+
+
+.login form{
+    background-color: rgba(192, 192, 192, 0.486);
+    width: 95%;
+    border-radius: 6px;
+}
+
+
+.signup input{
+    max-width: 400px;
+}
+
+.signup form{
+    padding: 40px;
+    border-radius: 15px;
+    background-color: rgb(223, 222, 222);
+}
